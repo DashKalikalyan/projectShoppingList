@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col-md-5">
+		<app-recipe-list></app-recipe-list>
+	</div>
+	<div class="col-md-7">
+    <router-outlet></router-outlet>
+		<!--<app-recipe-details *ngIf="finalRecipe; else infoText" [recipe]="finalRecipe"></app-recipe-details>-->
+		<!--<ng-template #infoText>-->
+			<!--<p>Please Select a Recipe</p>-->
+		<!--</ng-template>-->
+	</div>
+</div>
+
+
+<!--(onDetailsBrought)="onFinalMove($event)"-->
+<!--Rmoved this as we are implementing cross-component event binding using services-->
