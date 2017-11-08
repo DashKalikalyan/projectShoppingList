@@ -1,0 +1,8 @@
+.hero-image {
+  background-image: url("http://mexicalibordercafe.com/wp-content/uploads/2016/04/60.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: -webkit-fill-available;
+}
