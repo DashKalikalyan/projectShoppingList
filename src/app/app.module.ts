@@ -17,6 +17,8 @@ import { AppRoutingModule} from './app-routing.module';
 import { RecipeStartComponent } from './recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
 import { RecipeService } from './Services/recipe.service';
+import {HttpModule} from '@angular/http';
+import {DataStorageService} from './Services/data.storage.service';
 
 
 
@@ -40,9 +42,10 @@ import { RecipeService } from './Services/recipe.service';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpModule
   ],
-  providers: [ShoppingListService, RecipeService],
+  providers: [ShoppingListService, RecipeService, DataStorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
