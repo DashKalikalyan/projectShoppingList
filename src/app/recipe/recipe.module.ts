@@ -9,7 +9,7 @@ import {RecipeStartComponent} from '../recipe-start/recipe-start.component';
 import {RecipeEditComponent} from '../recipe-edit/recipe-edit.component';
 
 
-NgModule({
+@NgModule({
   declarations: [
     RecipeListComponent,
     RecipeItemComponent,
