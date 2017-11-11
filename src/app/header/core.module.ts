@@ -22,7 +22,8 @@ import {AuthGuard} from '../auth/auth-guard.service';
     AppRoutingModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    AppRoutingModule
   ],
   providers: [
     ShoppingListService, RecipeService, DataStorageService, AuthService, AuthGuard
