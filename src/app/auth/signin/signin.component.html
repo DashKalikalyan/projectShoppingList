@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 ">
-    <form (ngSubmit)="onSignin(f)" #f="ngForm">
+    <form (ngSubmit)="onSignin(f)" #f="ngForm" class="col-md-8">
       <div class="form-group">
         <label for="email">email</label>
         <input
@@ -8,6 +8,7 @@
           id="email"
           name="email"
           class="form-control"
+          placeholder="Email id"
           ngModel>
       </div>
 
@@ -18,6 +19,7 @@
           id="password"
           name="password"
           class="form-control"
+          placeholder="password"
           ngModel>
       </div>
       <button class="btn btn-primary" type="submit">Sign In</button>
